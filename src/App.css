@@ -1,5 +1,8 @@
 .wrapper{text-align:center;}
 .head{background:black;padding:25px;color:white;}
-.headimg{display:block;margin-left:auto;
+.headimg{display:block;
+  margin-left:auto;
 margin-right:auto;
-height:100vh;}
+height:100vh;
+max-width:85vw;
+}
