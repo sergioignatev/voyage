@@ -12,6 +12,8 @@ function App() {
     <div className="wrapper App">
       <BrowserRouter>
       <div>
+        <h1>RESERV BRANCH
+        </h1>
         <Link to='/quebec'><button>Quebec</button></Link>
         <Link to='/montreal'><button>Montreal</button></Link>
       </div>
