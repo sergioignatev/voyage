@@ -1,12 +1,7 @@
 import { BrowserRouter,Link, Route, Switch } from 'react-router-dom';
 import './App.css';
-function Quebec(){
-  return <h1>Quebec</h1>
-}
-function Montreal(){
-  return <h1>Montreal</h1>
-}
-
+import Quebec from './content/Quebec'
+import Montreal from './content/Montreal'
 function App() {
   return (
     <div className="wrapper App">
