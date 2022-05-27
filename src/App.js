@@ -4,12 +4,12 @@ import Quebec from './content/Quebec'
 import Montreal from './content/Montreal'
 function App() {
   return (
-    <div className="wrapper App">
+    <div className="wrapper ">
       <BrowserRouter>
       <div>
-        <h1>Main Branch</h1>
-        <Link to='/quebec'><button>Quebec</button></Link>
-        <Link to='/montreal'><button>Montreal</button></Link>
+        <h1>Туристический сайт</h1>
+        <Link to='/quebec'><button class="btn">Quebec</button></Link>
+        <Link to='/montreal'><button class="btn">Montreal</button></Link>
       </div>
       <Switch>
         <Route path='/quebec'>
