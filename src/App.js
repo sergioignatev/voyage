@@ -3,11 +3,12 @@ import './App.css';
 import Quebec from './content/Quebec'
 import Montreal from './content/Montreal';
 import Home from './content/Home'
+import Form from './content/Form'
 function App() {
   return (
     <div className="wrapper ">
       <BrowserRouter>
-      <h1>Туристический сайт по Квебеку</h1>
+      <h1 id="top" className='p-5 rounded '>Туристический сайт по Квебеку</h1>
         
         <div className="stick">
         <nav>
@@ -26,7 +27,7 @@ function App() {
           <Montreal/>
         </Route>
         <Route path='/order'>
-           <h1>ФОРМА</h1>
+           <Form/>
         </Route>
         <Route path='/'>
           <Home/>
