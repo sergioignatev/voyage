@@ -6,11 +6,15 @@ function App() {
   return (
     <div className="wrapper ">
       <BrowserRouter>
-      <div>
-        <h1>Туристический сайт</h1>
+      <h1>Tourist's site</h1>
+        
+        <div className="stick">
+        <nav>
         <Link to='/quebec'><button class="btn">Quebec</button></Link>
         <Link to='/montreal'><button class="btn">Montreal</button></Link>
-      </div>
+        </nav>
+        </div>
+      
       <Switch>
         <Route path='/quebec'>
           <Quebec/>

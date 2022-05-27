@@ -1,3 +1,5 @@
+
+
 .wrapper{text-align:center;}
 .head{background:black;padding:25px;color:white;}
 .headimg{display:block;
@@ -6,3 +8,17 @@ margin-right:auto;
 height:100vh;
 max-width:85vw;
 }
+.stick{
+  position: sticky;
+  top: 0;
+  background:white;
+  border:2px solid black;
+  }
+  @media only screen and (max-width:768px) {
+    .head{padding:25px 1px 25px 1px;}
+    .headimg{
+      height:;
+      max-width: 96vw;
+    }
+    
+  }
