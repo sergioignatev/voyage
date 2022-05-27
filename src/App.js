@@ -7,12 +7,13 @@ function App() {
   return (
     <div className="wrapper ">
       <BrowserRouter>
-      <h1>Tourist's site</h1>
+      <h1>Туристический сайт по Квебеку</h1>
         
         <div className="stick">
         <nav>
-        <Link to='/quebec'><button class="btn">Quebec</button></Link>
-        <Link to='/montreal'><button class="btn">Montreal</button></Link>
+        <Link to='/quebec'><button class="btn">Квебек Сити</button></Link>
+        <Link to='/montreal'><button class="btn">Монреаль</button></Link>
+        <Link to='/order'><button class="btn">Заказать</button></Link>
         <Link to='/'><button class="btn">Home</button></Link>
         </nav>
         </div>
@@ -23,6 +24,9 @@ function App() {
         </Route>
         <Route path='/montreal'>
           <Montreal/>
+        </Route>
+        <Route path='/order'>
+           <h1>ФОРМА</h1>
         </Route>
         <Route path='/'>
           <Home/>

@@ -1,4 +1,12 @@
 
+.btn
+{font-family: cursive;
+border-right:1px solid black;
+border-left:1px solid black;
+background:black;color:white;
+margin:1px;
+background:white;color:black;
+}
 
 .wrapper{text-align:center;}
 .head{background:black;padding:25px;color:white;}
@@ -12,7 +20,7 @@ max-width:85vw;
   position: sticky;
   top: 0;
   background:white;
-  border:2px solid black;
+ 
   }
   @media only screen and (max-width:768px) {
     .head{padding:25px 1px 25px 1px;}
