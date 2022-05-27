@@ -1,7 +1,8 @@
 import { BrowserRouter,Link, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Quebec from './content/Quebec'
-import Montreal from './content/Montreal'
+import Montreal from './content/Montreal';
+import Home from './content/Home'
 function App() {
   return (
     <div className="wrapper ">
@@ -12,6 +13,7 @@ function App() {
         <nav>
         <Link to='/quebec'><button class="btn">Quebec</button></Link>
         <Link to='/montreal'><button class="btn">Montreal</button></Link>
+        <Link to='/'><button class="btn">Home</button></Link>
         </nav>
         </div>
       
@@ -21,6 +23,10 @@ function App() {
         </Route>
         <Route path='/montreal'>
           <Montreal/>
+        </Route>
+        <Route path='/'>
+          <Home/>
+
         </Route>
 
       </Switch>
