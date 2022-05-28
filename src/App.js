@@ -7,11 +7,11 @@ import Quebec from './content/Quebec'
 import Montreal from './content/Montreal';
 import Home from './content/Home'
 import Form from './content/Form'
+
 function App() {
-  let w=window.innerWidth;
-  return <div>
-    <Base/>
-  </div>
+  const w=window.innerWidth;
+  if(w>700){return <Base/>}
+  {return <Dropdown/>}
 }
 
 export default App;
