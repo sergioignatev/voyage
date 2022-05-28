@@ -6,7 +6,7 @@
 }
 .sechead{
   color: #fff;
-  text-shadow: 5px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
 
 }
 .btn{
@@ -42,5 +42,5 @@ max-width:85vw;
       height:70vh;
       max-width: 96vw;
     }
-    
+    #top{background:url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg")}
   }
