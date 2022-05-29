@@ -10,7 +10,7 @@ function Dropdown(){
         <div className="wrapper " >
             
           <BrowserRouter>
-          <h1 id="top" className='p-5 rounded '>Quebec</h1>
+          <h1 id="top" className='p-5 rounded '>Quebecc</h1>
           <div className="stick">
               
               <nav id="nav">
