@@ -32,8 +32,8 @@ function Dropdown(){
           
           <div className="stick">
             <div class="row">
-          <div class="col-3"><button onClick={myF} className="btn le">+</button></div>
-          <div class="col-9 text-left"><h2>menu</h2></div>
+          <div class="col-1"><button onClick={myF} className="btn le">+</button></div>
+          <div class="col-11 text-left"><h2>Меню</h2></div>
           </div>
               <nav  id="navd" onClick={Diss}>
               
