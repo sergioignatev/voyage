@@ -14,7 +14,7 @@ function Dropdown(){
       document.getElementById("navd").style.display="none";
     }
     else{document.getElementById("navd").style.display="block";
-    document.getElementById("navd").style.position="fixed";
+    
   }
   }
   function Diss(){
@@ -27,13 +27,16 @@ function Dropdown(){
         <div class="wrapper">
            
           <BrowserRouter>
- 
+          
           <h1 id="top" className='p-5 rounded '>Quebec</h1>
-          <button onClick={myF} className="btn">+</button>
+          
           <div className="stick">
-              
+            <div class="row">
+          <div class="col-3"><button onClick={myF} className="btn le">+</button></div>
+          <div class="col-9 text-left"><h2>menu</h2></div>
+          </div>
               <nav  id="navd" onClick={Diss}>
-                
+              
               <Link to='/quebec'><button class="btn q"><h3>Квебек Сити</h3></button></Link><hr/>
               <Link to='/montreal'><button class="btn q">Монреаль</button></Link><hr/>
               <Link to='/order'><button class="btn q">Заказать</button></Link><hr/>
