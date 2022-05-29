@@ -7,7 +7,7 @@ import Form from './content/Form';
 
 
 function Dropdown(){
-  let i=2;
+  let i=4;
   function myF(){
     i++;
     if(i%2==0){
