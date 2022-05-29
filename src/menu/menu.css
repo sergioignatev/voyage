@@ -1,0 +1,15 @@
+#navd{
+    margin-left:5vw;
+    margin-right:5vw;
+    width:90vw;
+    border:2px solid green;
+    background:blue;
+    color:white;
+}
+.q{
+    border:none;
+    font-size: larger;
+    background:blue;
+    color:white;
+
+}
