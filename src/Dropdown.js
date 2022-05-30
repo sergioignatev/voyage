@@ -28,13 +28,13 @@ function Dropdown(){
            
           <BrowserRouter>
           
-          <h1 id="top" className='p-5 rounded '>Quebec</h1>
+          <h1 id="top" className='p-5 rounded container-fluid'>Quebec</h1>
           
           <div className="stick">
-            <div class="row">
-          <div class="col-1"><button onClick={myF} className="btn le">+</button></div>
-          <div class="col-11 text-left"><h2>Меню</h2></div>
-          </div>
+           
+          <div><button onClick={myF} className="btn le">+МЕНЮ</button></div>
+          
+         
               <nav  id="navd" onClick={Diss}>
               
               <Link to='/quebec'><button class="btn q"><h3>Квебек Сити</h3></button></Link><hr/>

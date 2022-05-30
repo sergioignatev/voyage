@@ -42,5 +42,8 @@ max-width:85vw;
       height:70vh;
       max-width: 96vw;
     }
-    #top{background:url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg")}
+    #top{background:url("https://upload.wikimedia.org/wikipedia/commons/5/5f/Flag_of_Quebec.svg");
+   margin-left:0;
+   margin-right:0;
+    }
   }

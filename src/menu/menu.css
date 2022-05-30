@@ -4,7 +4,7 @@
     margin-right:auto;
     width:90vw;
     border:4px solid green;
-    background:whitesmoke;
+    
     color:blueviolet;
     display:none;
    
@@ -17,6 +17,4 @@ hr{border:3px solid green;
     font-size: larger;
 }
 .le{
-border:4px solid green;}
-.col-11{text-align:left;padding-left:20px;}
-.row{margin-left:1vw;}
+border:4px solid green;margin-right:100%;}
