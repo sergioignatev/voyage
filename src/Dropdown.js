@@ -7,6 +7,7 @@ import Form from './content/Form';
 
 
 function Dropdown(){
+ 
   let i=4;
   function myF(){
     i++;
@@ -37,7 +38,7 @@ function Dropdown(){
          
               <nav  id="navd" onClick={Diss}>
               
-              <Link to='/quebec'><button class="btn q"><h3>Квебек Сити</h3></button></Link><hr/>
+              <Link to='/quebec'><h3 class="btn q">Квебек Сити</h3></Link><hr/>
               <Link to='/montreal'><button class="btn q">Монреаль</button></Link><hr/>
               <Link to='/order'><button class="btn q">Заказать</button></Link><hr/>
               <Link to='/'><button class="btn q">Home</button></Link><hr/>
