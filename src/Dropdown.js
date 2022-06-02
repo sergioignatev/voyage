@@ -47,16 +47,16 @@ function Dropdown(){
     
           
           <Switch>
-            <Route path='/quebec'>
+            <Route path='#/quebec'>
               <Quebec/>
             </Route>
-            <Route path='/montreal'>
+            <Route path='#/montreal'>
               <Montreal/>
             </Route>
-            <Route path='/order'>
+            <Route path='#/order'>
                <Form/>
             </Route>
-            <Route path='/'>
+            <Route path='#/'>
               <Home/>
     
             </Route>
