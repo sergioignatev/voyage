@@ -41,7 +41,7 @@ function Dropdown(){
               <Link to='#/quebec'><h3 class="btn q">Квебек Сити</h3></Link><hr/>
               <Link to='#/montreal'><button class="btn q">Монреаль</button></Link><hr/>
               <Link to='#/order'><button class="btn q">Заказать</button></Link><hr/>
-              <Link to='#/'><button class="btn q">Home</button></Link><hr/>
+              <Link to='#/'><button class="btn q">Homee</button></Link><hr/>
               </nav>
               </div>
     
