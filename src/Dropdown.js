@@ -38,25 +38,25 @@ function Dropdown(){
          
               <nav  id="navd" onClick={Diss}>
               
-              <Link to='#/quebec'><h3 class="btn q">Квебек Сити</h3></Link><hr/>
-              <Link to='#/montreal'><button class="btn q">Монреаль</button></Link><hr/>
-              <Link to='#/order'><button class="btn q">Заказать</button></Link><hr/>
-              <Link to='#/'><button class="btn q">Homee</button></Link><hr/>
+              <Link to='/quebec'><h3 class="btn q">Квебек Сити</h3></Link><hr/>
+              <Link to='/montreal'><button class="btn q">Монреаль</button></Link><hr/>
+              <Link to='/order'><button class="btn q">Заказать</button></Link><hr/>
+              <Link to='/'><button class="btn q">Home</button></Link><hr/>
               </nav>
               </div>
     
           
           <Switch>
-            <Route path='#/quebec'>
+            <Route path='/quebec'>
               <Quebec/>
             </Route>
-            <Route path='#/montreal'>
+            <Route path='/montreal'>
               <Montreal/>
             </Route>
-            <Route path='#/order'>
+            <Route path='/order'>
                <Form/>
             </Route>
-            <Route path='#/'>
+            <Route path='/'>
               <Home/>
     
             </Route>

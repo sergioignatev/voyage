@@ -16,7 +16,7 @@ function Base(){
               <Link to='/quebec'><button class="btn">Квебек Сити</button></Link>
               <Link to='/montreal'><button class="btn">Монреаль</button></Link>
               <Link to='/order'><button class="btn">Заказать</button></Link>
-              <Link to='/'><button class="btn">Homeeee</button></Link>
+              <Link to='/'><button class="btn">Home</button></Link>
               </nav>
               </div>
     
