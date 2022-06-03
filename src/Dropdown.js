@@ -4,7 +4,7 @@ import Quebec from './content/Quebec'
 import Montreal from './content/Montreal';
 import Home from './content/Home'
 import Form from './content/Form';
-
+import { HashRouter } from 'react-router-dom';
 
 function Dropdown(){
  
