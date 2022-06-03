@@ -27,7 +27,7 @@ function Dropdown(){
 
         <div class="wrapper">
            
-          <BrowserRouter>
+          <HashRouter>
           
           <h1 id="top" className='p-5 rounded container-fluid'>Quebec</h1>
           
@@ -62,7 +62,7 @@ function Dropdown(){
             </Route>
     
           </Switch>
-          </BrowserRouter>
+          </HashRouter>
     
         </div>
 

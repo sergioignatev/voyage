@@ -1,4 +1,5 @@
 import { BrowserRouter,Link, Route, Switch } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 import Quebec from './content/Quebec'
 import Montreal from './content/Montreal';
 import Home from './content/Home'
@@ -6,7 +7,7 @@ import Form from './content/Form'
 function Base(){
     return (
         <div className="wrapper ">
-          <BrowserRouter>
+          <HashRouter>
           <h1 id="top" className='p-5 rounded '>Quebec</h1>
           <div className="stick">
               
@@ -15,7 +16,7 @@ function Base(){
               <Link to='/quebec'><button class="btn">Квебек Сити</button></Link>
               <Link to='/montreal'><button class="btn">Монреаль</button></Link>
               <Link to='/order'><button class="btn">Заказать</button></Link>
-              <Link to='/'><button class="btn">Home</button></Link>
+              <Link to='/'><button class="btn">Homeeee</button></Link>
               </nav>
               </div>
     
@@ -36,7 +37,7 @@ function Base(){
             </Route>
     
           </Switch>
-          </BrowserRouter>
+          </HashRouter>
     
         </div>
       );
